@@ -14,9 +14,7 @@
 @end
 
 @interface DrawDelegate : UIView
-
 @property (nonatomic, assign) id <defDrawDelegate>delegate;
 
 - (void)write;
-
 @end

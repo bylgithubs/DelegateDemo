@@ -13,7 +13,7 @@
 		646225A422E2BCF4009C754F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646225A322E2BCF4009C754F /* Assets.xcassets */; };
 		646225A722E2BCF4009C754F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646225A522E2BCF4009C754F /* LaunchScreen.storyboard */; };
 		646225AA22E2BCF4009C754F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646225A922E2BCF4009C754F /* main.m */; };
-		646225B522E2E6FA009C754F /* DrawDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646225B422E2E6FA009C754F /* DrawDelegate.m */; };
+		646225B822E2EB3C009C754F /* DrawDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646225B722E2EB3C009C754F /* DrawDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		646225A622E2BCF4009C754F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		646225A822E2BCF4009C754F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		646225A922E2BCF4009C754F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		646225B322E2E6FA009C754F /* DrawDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawDelegate.h; sourceTree = "<group>"; };
-		646225B422E2E6FA009C754F /* DrawDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDelegate.m; sourceTree = "<group>"; };
+		646225B622E2EB3C009C754F /* DrawDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawDelegate.h; sourceTree = "<group>"; };
+		646225B722E2EB3C009C754F /* DrawDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				646225A522E2BCF4009C754F /* LaunchScreen.storyboard */,
 				646225A822E2BCF4009C754F /* Info.plist */,
 				646225A922E2BCF4009C754F /* main.m */,
-				646225B322E2E6FA009C754F /* DrawDelegate.h */,
-				646225B422E2E6FA009C754F /* DrawDelegate.m */,
+				646225B622E2EB3C009C754F /* DrawDelegate.h */,
+				646225B722E2EB3C009C754F /* DrawDelegate.m */,
 			);
 			path = delegate_test;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				6462259F22E2BCF2009C754F /* ViewController.m in Sources */,
 				646225AA22E2BCF4009C754F /* main.m in Sources */,
-				646225B522E2E6FA009C754F /* DrawDelegate.m in Sources */,
+				646225B822E2EB3C009C754F /* DrawDelegate.m in Sources */,
 				6462259C22E2BCF2009C754F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
